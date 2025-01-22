@@ -1,7 +1,6 @@
-use practice_string::{largest_word, palindromo, reverse_words};
+use practice_string::{capitalize_first_word, common_word};
 
 fn main() {
-    palindromo::response("radar");
-    largest_word::response("La palabra mas grande seria otorrinolaringologo");
-    reverse_words::response("Rust es asombroso");
+    capitalize_first_word::response("kono keeki ga umakatta desu yo");
+    common_word::response("Hola, mundo! Hola mundo, mundo.");
 }
