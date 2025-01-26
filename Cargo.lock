@@ -295,6 +295,7 @@ dependencies = [
  "calamine",
  "chrono",
  "rand",
+ "rust_xlsxwriter",
 ]
 
 [[package]]
@@ -353,6 +354,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
+]
+
+[[package]]
+name = "rust_xlsxwriter"
+version = "0.81.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "56c615b4e9c5b7be8e813d0c286734c8a9f336177810f5f91d4da0fa61ad4b4f"
+dependencies = [
+ "zip",
 ]
 
 [[package]]

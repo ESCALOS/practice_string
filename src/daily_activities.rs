@@ -1,4 +1,4 @@
-mod excel; 
+pub mod excel; 
 pub mod model;
 
 use chrono::{NaiveDate, Duration};
@@ -32,8 +32,4 @@ pub fn generate_daily_activities(
     }
 
     result
-}
-
-pub fn utilizar() {
-    excel::set();
 }
